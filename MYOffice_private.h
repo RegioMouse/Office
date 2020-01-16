@@ -12,7 +12,7 @@
 #define VER_BUILD	1
 #define COMPANY_NAME	"Zdenek Hrouda"
 #define FILE_VERSION	"0.0.0.1"
-#define FILE_DESCRIPTION	"MYOffice."
+#define FILE_DESCRIPTION	"MYOffice..."
 #define INTERNAL_NAME	"MYOffice"
 #define LEGAL_COPYRIGHT	"Zdenek Hrouda"
 #define LEGAL_TRADEMARKS	"MYOffice"

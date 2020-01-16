@@ -894,3 +894,8 @@
 
 3	5	O:\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
 3	5	O:\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+
+16.1.2020 20:42:37: Appending to log...
+
+3	5	O:\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	O:\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]

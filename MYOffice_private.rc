@@ -27,7 +27,7 @@ FILETYPE VFT_APP
     {
       VALUE "CompanyName", "Zdenek Hrouda"
       VALUE "FileVersion", "0.0.0.1"
-      VALUE "FileDescription", "MYOffice."
+      VALUE "FileDescription", "MYOffice..."
       VALUE "InternalName", "MYOffice"
       VALUE "LegalCopyright", "Zdenek Hrouda"
       VALUE "LegalTrademarks", "MYOffice"
