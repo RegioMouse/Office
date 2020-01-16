@@ -1,0 +1,876 @@
+15.1.2020 15:09:00: Creating log...
+
+5	0	D:\Development\DevC++ Projects\MYOffice\main.h	In file included from main.h
+1		D:\Development\DevC++ Projects\MYOffice\main.cpp	                 from main.cpp
+1	0	D:\Development\DevC++ Projects\MYOffice\Menu.h	[Error] unterminated #ifndef
+		D:\Development\DevC++ Projects\MYOffice\main.cpp	In function 'int main(int, char**)':
+3	31	D:\Development\DevC++ Projects\MYOffice\main.cpp	[Error] declaration of C function 'int main(int, char**)' conflicts with
+1	0	D:\Development\DevC++ Projects\MYOffice\main.cpp	In file included from main.cpp
+8	5	D:\Development\DevC++ Projects\MYOffice\main.h	[Error] previous declaration 'int main()' here
+29		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/main.o' failed
+
+15.1.2020 15:09:12: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\main.cpp	In function 'int main(int, char**)':
+3	31	D:\Development\DevC++ Projects\MYOffice\main.cpp	[Error] declaration of C function 'int main(int, char**)' conflicts with
+1	0	D:\Development\DevC++ Projects\MYOffice\main.cpp	In file included from main.cpp
+8	5	D:\Development\DevC++ Projects\MYOffice\main.h	[Error] previous declaration 'int main()' here
+29		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/main.o' failed
+
+15.1.2020 15:09:48: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Menu.cpp	In function 'void Menu()':
+8	2	D:\Development\DevC++ Projects\MYOffice\Menu.cpp	[Error] expected ';' before 'cout'
+16	4	D:\Development\DevC++ Projects\MYOffice\Menu.cpp	[Error] expected primary-expression before ')' token
+19	4	D:\Development\DevC++ Projects\MYOffice\Menu.cpp	[Error] expected primary-expression before ')' token
+22	4	D:\Development\DevC++ Projects\MYOffice\Menu.cpp	[Error] expected primary-expression before ')' token
+26	3	D:\Development\DevC++ Projects\MYOffice\Menu.cpp	[Error] expected ';' before 'break'
+32		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Menu.o' failed
+
+15.1.2020 15:10:03: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Menu.cpp	In function 'void Menu()':
+16	4	D:\Development\DevC++ Projects\MYOffice\Menu.cpp	[Error] expected primary-expression before ')' token
+19	4	D:\Development\DevC++ Projects\MYOffice\Menu.cpp	[Error] expected primary-expression before ')' token
+22	4	D:\Development\DevC++ Projects\MYOffice\Menu.cpp	[Error] expected primary-expression before ')' token
+32		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Menu.o' failed
+
+15.1.2020 15:36:47: Appending to log...
+
+1	0	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In file included from Settings.cpp
+1	0	D:\Development\DevC++ Projects\MYOffice\Settings.h	[Error] unterminated #ifndef
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+6	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected ';' before 'cout'
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Settings()':
+15	9	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] 'settngsChoice' was not declared in this scope
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 15:37:07: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Settings()':
+15	9	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] 'settngsChoice' was not declared in this scope
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 15:40:41: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+12	18	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] invalid conversion from 'int' to 'const char*' [-fpermissive]
+5	0	D:\Development\DevC++ Projects\MYOffice\Settings.h	In file included from Settings.h
+1		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	                 from Settings.cpp
+245	37	d:\development\ide\mingw32\include\stdlib.h	[Error] initializing argument 1 of 'int system(const char*)' [-fpermissive]
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 15:41:04: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+12	18	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] invalid conversion from 'long long unsigned int' to 'const char*' [-fpermissive]
+5	0	D:\Development\DevC++ Projects\MYOffice\Settings.h	In file included from Settings.h
+1		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	                 from Settings.cpp
+245	37	d:\development\ide\mingw32\include\stdlib.h	[Error] initializing argument 1 of 'int system(const char*)' [-fpermissive]
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 15:41:26: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+8	6	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected unqualified-id before '[' token
+10	9	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] 'clrChoice' was not declared in this scope
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 15:43:27: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Settings()':
+25	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected ';' before 'cout'
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 15:44:11: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+14	18	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected ')' before 'clrChoice'
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 15:44:15: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+14	18	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] increment of read-only location '(const char*)"color "'
+14	18	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] lvalue required as increment operand
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 15:44:24: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+14	22	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Warning] the address of 'clrChoice' will always evaluate as 'true' [-Waddress]
+14	31	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] cannot convert 'bool' to 'const char*' for argument '1' to 'int system(const char*)'
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 15:44:37: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+14	18	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected ')' before 'clrChoice'
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 15:52:19: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+19	18	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] switch quantity not an integer
+29	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected primary-expression before '}' token
+29	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected ':' before '}' token
+29	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected primary-expression before '}' token
+29	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected ';' before '}' token
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 15:52:32: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+29	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected primary-expression before '}' token
+29	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected ':' before '}' token
+29	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected primary-expression before '}' token
+29	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected ';' before '}' token
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 16:05:10: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Menu.cpp	In function 'void Menu()':
+29	8	D:\Development\DevC++ Projects\MYOffice\Menu.cpp	[Error] 'Help' was not declared in this scope
+32		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Menu.o' failed
+
+15.1.2020 16:05:25: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Help.cpp	In function 'void Help()':
+7	1	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Error] expected ';' before '}' token
+38		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Help.o' failed
+
+15.1.2020 16:08:19: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Help.cpp	In function 'void Help()':
+10	6	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Error] no match for 'operator<<' (operand types are 'std::istream {aka std::basic_istream<char>}' and 'int')
+10	6	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Note] candidates are:
+52	0	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\string	In file included from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\string
+40		d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\bits\locale_classes.h	                 from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\bits\locale_classes.h
+41		d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\bits\ios_base.h	                 from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\bits\ios_base.h
+42		d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ios	                 from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ios
+38		d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	                 from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream
+39		d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	                 from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\DevC++ Projects\MYOffice\Help.h	                 from Help.h
+1		D:\Development\DevC++ Projects\MYOffice\Help.cpp	                 from Help.cpp
+2753	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h	[Note] template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+2753	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h	[Note] template argument deduction/substitution failed:
+10	9	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Note] 'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+39	0	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	In file included from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\DevC++ Projects\MYOffice\Help.h	                 from Help.h
+1		D:\Development\DevC++ Projects\MYOffice\Help.cpp	                 from Help.cpp
+471	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+471	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template argument deduction/substitution failed:
+10	9	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Note] 'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+39	0	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	In file included from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\DevC++ Projects\MYOffice\Help.h	                 from Help.h
+1		D:\Development\DevC++ Projects\MYOffice\Help.cpp	                 from Help.cpp
+476	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+476	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template argument deduction/substitution failed:
+10	9	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Note] 'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+39	0	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	In file included from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\DevC++ Projects\MYOffice\Help.h	                 from Help.h
+1		D:\Development\DevC++ Projects\MYOffice\Help.cpp	                 from Help.cpp
+482	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+482	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template argument deduction/substitution failed:
+10	9	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Note] 'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+39	0	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	In file included from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\DevC++ Projects\MYOffice\Help.h	                 from Help.h
+1		D:\Development\DevC++ Projects\MYOffice\Help.cpp	                 from Help.cpp
+488	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+488	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template argument deduction/substitution failed:
+10	9	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Note] 'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+39	0	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	In file included from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\DevC++ Projects\MYOffice\Help.h	                 from Help.h
+1		D:\Development\DevC++ Projects\MYOffice\Help.cpp	                 from Help.cpp
+493	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+493	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template argument deduction/substitution failed:
+10	9	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Note] 'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+39	0	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	In file included from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\DevC++ Projects\MYOffice\Help.h	                 from Help.h
+1		D:\Development\DevC++ Projects\MYOffice\Help.cpp	                 from Help.cpp
+513	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+513	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template argument deduction/substitution failed:
+10	9	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Note] 'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+609	0	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	In file included from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream
+39		d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	                 from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\DevC++ Projects\MYOffice\Help.h	                 from Help.h
+1		D:\Development\DevC++ Projects\MYOffice\Help.cpp	                 from Help.cpp
+321	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\bits\ostream.tcc	[Note] template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+321	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\bits\ostream.tcc	[Note] template argument deduction/substitution failed:
+10	9	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Note] 'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+39	0	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	In file included from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\DevC++ Projects\MYOffice\Help.h	                 from Help.h
+1		D:\Development\DevC++ Projects\MYOffice\Help.cpp	                 from Help.cpp
+530	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+530	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template argument deduction/substitution failed:
+10	9	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Note] 'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+39	0	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	In file included from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\DevC++ Projects\MYOffice\Help.h	                 from Help.h
+1		D:\Development\DevC++ Projects\MYOffice\Help.cpp	                 from Help.cpp
+543	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+543	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template argument deduction/substitution failed:
+10	9	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Note] 'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+39	0	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	In file included from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\DevC++ Projects\MYOffice\Help.h	                 from Help.h
+1		D:\Development\DevC++ Projects\MYOffice\Help.cpp	                 from Help.cpp
+548	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+548	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template argument deduction/substitution failed:
+10	9	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Note] 'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+39	0	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	In file included from d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\DevC++ Projects\MYOffice\Help.h	                 from Help.h
+1		D:\Development\DevC++ Projects\MYOffice\Help.cpp	                 from Help.cpp
+602	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template<class _CharT, class _Traits, class _Tp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&)
+602	5	d:\development\ide\mingw32\lib\gcc\mingw32\4.8.1\include\c++\ostream	[Note] template argument deduction/substitution failed:
+10	9	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Note] 'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+14	1	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Error] expected primary-expression before '}' token
+14	1	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Error] expected ';' before '}' token
+38		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Help.o' failed
+
+15.1.2020 16:08:29: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Help.cpp	In function 'void Help()':
+14	1	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Error] expected primary-expression before '}' token
+14	1	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Error] expected ';' before '}' token
+38		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Help.o' failed
+
+15.1.2020 16:11:04: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Help.cpp	In function 'void Help()':
+14	2	D:\Development\DevC++ Projects\MYOffice\Help.cpp	[Error] expected ';' before 'cin'
+38		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Help.o' failed
+
+15.1.2020 16:24:10: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Menu.cpp	In function 'void Menu()':
+38	3	D:\Development\DevC++ Projects\MYOffice\Menu.cpp	[Error] expected ';' before 'Menu'
+32		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Menu.o' failed
+
+15.1.2020 16:28:18: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Menu.cpp	In function 'void Menu()':
+37	3	D:\Development\DevC++ Projects\MYOffice\Menu.cpp	[Error] 'this_thread' has not been declared
+32		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Menu.o' failed
+
+15.1.2020 16:28:24: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Menu.cpp	In function 'void Menu()':
+37	8	D:\Development\DevC++ Projects\MYOffice\Menu.cpp	[Error] 'std::this_thread' has not been declared
+32		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Menu.o' failed
+
+15.1.2020 17:18:35: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+26	12	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] 'f0' was not declared in this scope
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Settings()':
+59	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected ';' before 'cout'
+69	17	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] 'saveSettings' was not declared in this scope
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 17:19:10: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+26	10	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] invalid conversion from 'const char*' to 'int' [-fpermissive]
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Settings()':
+59	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected ';' before 'cout'
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 17:20:02: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+26	10	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Warning] deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+20	8	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Warning] variable 'color' set but not used [-Wunused-but-set-variable]
+		D:\Development\DevC++ Projects\MYOffice\saveSettings.cpp	In function 'void saveSettings()':
+8	16	D:\Development\DevC++ Projects\MYOffice\saveSettings.cpp	[Error] 'color' was not declared in this scope
+41		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/saveSettings.o' failed
+
+15.1.2020 17:20:19: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\saveSettings.cpp	In function 'void saveSettings()':
+8	16	D:\Development\DevC++ Projects\MYOffice\saveSettings.cpp	[Error] 'color' was not declared in this scope
+41		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/saveSettings.o' failed
+
+15.1.2020 17:20:50: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+24	10	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Warning] deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+		D:\Development\DevC++ Projects\MYOffice\OBJ\saveSettings.o	saveSettings.cpp:(.bss+0x0): multiple definition of `color'
+		D:\Development\DevC++ Projects\MYOffice\OBJ\Settings.o	Settings.cpp:(.bss+0x0): first defined here
+		D:\Development\DevC++ Projects\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+15.1.2020 17:21:13: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\OBJ\saveSettings.o	saveSettings.cpp:(.bss+0x0): multiple definition of `color'
+		D:\Development\DevC++ Projects\MYOffice\OBJ\Settings.o	Settings.cpp:(.bss+0x0): first defined here
+		D:\Development\DevC++ Projects\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+15.1.2020 17:21:57: Appending to log...
+
+1	0	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In file included from Settings.cpp
+6	2	D:\Development\DevC++ Projects\MYOffice\Settings.h	[Error] invalid preprocessing directive #inlcude
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+22	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected initializer before 'switch'
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 17:22:15: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+22	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected initializer before 'switch'
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 17:22:24: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\OBJ\Settings.o	Settings.cpp:(.text+0x292): undefined reference to `__atomic_fetch_add_4'
+		D:\Development\DevC++ Projects\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+15.1.2020 17:22:52: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\OBJ\saveSettings.o	saveSettings.cpp:(.bss+0x0): multiple definition of `color'
+		D:\Development\DevC++ Projects\MYOffice\OBJ\Settings.o	Settings.cpp:(.bss+0x0): first defined here
+		D:\Development\DevC++ Projects\MYOffice\OBJ\Settings.o	Settings.cpp:(.text+0x6a): undefined reference to `__atomic_fetch_add_4'
+		d:\development\ide\mingw32\mingw32\bin\ld.exe	OBJ/Settings.o: bad reloc address 0x17 in section `.text.unlikely'
+		D:\Development\DevC++ Projects\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+15.1.2020 17:25:55: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+9	25	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Warning] unused variable 'CLR' [-Wunused-variable]
+		D:\Development\DevC++ Projects\MYOffice\saveSettings.cpp	In function 'void saveSettings()':
+8	16	D:\Development\DevC++ Projects\MYOffice\saveSettings.cpp	[Error] 'CLR' was not declared in this scope
+41		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/saveSettings.o' failed
+
+15.1.2020 17:26:20: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\OBJ\saveSettings.o	saveSettings.cpp:(.bss+0x0): multiple definition of `CLR'
+		D:\Development\DevC++ Projects\MYOffice\OBJ\Settings.o	Settings.cpp:(.bss+0x0): first defined here
+		D:\Development\DevC++ Projects\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+15.1.2020 17:28:03: Appending to log...
+
+6	13	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] conflicting declaration 'char CLR [999]'
+1	0	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In file included from Settings.cpp
+13	24	D:\Development\DevC++ Projects\MYOffice\Settings.h	[Error] 'CLR' has a previous declaration as 'long long unsigned int CLR'
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void saveOptions()':
+11	6	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] 'myfile' was not declared in this scope
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 17:28:14: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void saveOptions()':
+11	6	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] 'myfile' was not declared in this scope
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 17:28:31: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\OBJ\saveSettings.o	saveSettings.cpp:(.bss+0x0): multiple definition of `CLR'
+		D:\Development\DevC++ Projects\MYOffice\OBJ\Settings.o	Settings.cpp:(.bss+0x0): first defined here
+		D:\Development\DevC++ Projects\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+15.1.2020 17:30:16: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\OBJ\Settings.o	Settings.cpp:(.text+0x361): undefined reference to `saveSettings()'
+		D:\Development\DevC++ Projects\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+15.1.2020 17:31:11: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void saveOptions()':
+10	21	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] variable 'std::ofstream Nastaveni' has initializer but incomplete type
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 17:31:27: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void saveOptions()':
+10	20	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] variable 'std::ofstream Nastaveni' has initializer but incomplete type
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 17:33:32: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+39	8	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] incompatible types in assignment of 'const char [3]' to 'char [999]'
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 17:33:46: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+39	8	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] incompatible types in assignment of 'const char [9]' to 'char [999]'
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 17:33:52: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+39	8	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] invalid array assignment
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 17:33:59: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+39	11	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Warning] comparison with string literal results in unspecified behaviour [-Waddress]
+39	21	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Warning] statement has no effect [-Wunused-value]
+		d:\development\ide\mingw32\mingw32\bin\ld.exe	cannot open output file EXE/MYOffice.exe: Permission denied
+		D:\Development\DevC++ Projects\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+15.1.2020 17:35:09: Appending to log...
+
+		d:\development\ide\mingw32\mingw32\bin\ld.exe	cannot open output file EXE/MYOffice.exe: Permission denied
+		D:\Development\DevC++ Projects\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+15.1.2020 17:37:47: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+30	11	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Warning] comparison with string literal results in unspecified behaviour [-Waddress]
+30	21	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Warning] statement has no effect [-Wunused-value]
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Settings()':
+89	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] a function-definition is not allowed here before '{' token
+98	1	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected '}' at end of input
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 17:38:23: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+30	11	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Warning] comparison with string literal results in unspecified behaviour [-Waddress]
+30	21	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Warning] statement has no effect [-Wunused-value]
+		d:\development\ide\mingw32\mingw32\bin\ld.exe	cannot open output file EXE/MYOffice.exe: Permission denied
+		D:\Development\DevC++ Projects\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+15.1.2020 17:42:24: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Color()':
+27	4	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] 'CLR' was not declared in this scope
+		D:\Development\DevC++ Projects\MYOffice\Settings.cpp	In function 'void Settings()':
+60	2	D:\Development\DevC++ Projects\MYOffice\Settings.cpp	[Error] expected ';' before 'cin'
+35		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Settings.o' failed
+
+15.1.2020 17:54:57: Appending to log...
+
+		D:\Development\DevC++ Projects\MYOffice\Menu.cpp	In function 'void Menu()':
+26	3	D:\Development\DevC++ Projects\MYOffice\Menu.cpp	[Error] expected ';' before 'break'
+32		D:\Development\DevC++ Projects\MYOffice\Makefile.win	recipe for target 'OBJ/Menu.o' failed
+
+15.1.2020 17:56:43: Appending to log...
+
+3	5	D:\Development\DevC++ Projects\MYOffice\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	D:\Development\DevC++ Projects\MYOffice\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+
+15.1.2020 17:57:58: Appending to log...
+
+3	5	D:\Development\DevC++ Projects\MYOffice\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	D:\Development\DevC++ Projects\MYOffice\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+
+15.1.2020 18:00:54: Appending to log...
+
+3	5	D:\Development\DevC++ Projects\MYOffice\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	D:\Development\DevC++ Projects\MYOffice\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+
+15.1.2020 18:18:48: Appending to log...
+
+3	5	D:\Development\DevC++ Projects\MYOffice\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	D:\Development\DevC++ Projects\MYOffice\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+
+16.1.2020 15:02:58: Appending to log...
+
+3	5	D:\Development\Important\MYOffice\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	D:\Development\Important\MYOffice\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] multi-character character constant [-Wmultichar]
+
+16.1.2020 15:03:50: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] invalid conversion from 'const char*' to 'int' [-fpermissive]
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] conversion from pointer type 'const char (*)[4]' to arithmetic type 'int' in a constant-expression
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:04:02: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'AAA' was not declared in this scope
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:04:21: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+11	12	D:\Development\Important\MYOffice\InitApp.cpp	[Error] switch quantity not an integer
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] could not convert '"AAA"' from 'const char [4]' to '<type error>'
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:04:39: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+9	9	D:\Development\Important\MYOffice\InitApp.cpp	[Error] cannot bind 'std::istream {aka std::basic_istream<char>}' lvalue to 'std::basic_istream<char>&&'
+40	0	d:\development\important\dev\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	In file included from d:\development\important\dev\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\Important\MYOffice\InitApp.h	                 from InitApp.h
+1		D:\Development\Important\MYOffice\InitApp.cpp	                 from InitApp.cpp
+872	5	d:\development\important\dev\mingw32\lib\gcc\mingw32\4.8.1\include\c++\istream	[Error] initializing argument 1 of 'std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&&, _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = char* [4]]'
+11	12	D:\Development\Important\MYOffice\InitApp.cpp	[Error] switch quantity not an integer
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] could not convert '"AAA"' from 'const char [4]' to '<type error>'
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:04:55: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+7	2	D:\Development\Important\MYOffice\InitApp.cpp	[Error] expected initializer before 'cout'
+9	9	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'Key' was not declared in this scope
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] could not convert '"AAA"' from 'const char [4]' to '<type error>'
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:05:05: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+11	12	D:\Development\Important\MYOffice\InitApp.cpp	[Error] switch quantity not an integer
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] could not convert '"AAA"' from 'const char [4]' to '<type error>'
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:05:20: Appending to log...
+
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] multi-character character constant [-Wmultichar]
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+11	12	D:\Development\Important\MYOffice\InitApp.cpp	[Error] switch quantity not an integer
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:05:29: Appending to log...
+
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] multi-character character constant [-Wmultichar]
+
+16.1.2020 15:05:59: Appending to log...
+
+3	5	D:\Development\Important\MYOffice\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	D:\Development\Important\MYOffice\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] multi-character character constant [-Wmultichar]
+
+16.1.2020 15:06:28: Appending to log...
+
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] multi-character character constant [-Wmultichar]
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] case label value exceeds maximum value for type [enabled by default]
+
+16.1.2020 15:06:44: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'AAA' was not declared in this scope
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:07:19: Appending to log...
+
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] multi-character character constant [-Wmultichar]
+
+16.1.2020 15:09:44: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+11	12	D:\Development\Important\MYOffice\InitApp.cpp	[Error] switch quantity not an integer
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:10:00: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+5	7	D:\Development\Important\MYOffice\InitApp.cpp	[Error] variable or field 'Key' declared void
+9	9	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'Key' was not declared in this scope
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:10:08: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] case label value exceeds maximum value for type [enabled by default]
+
+16.1.2020 15:13:08: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+11	12	D:\Development\Important\MYOffice\InitApp.cpp	[Error] switch quantity not an integer
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:19:38: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'ABC' was not declared in this scope
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:19:47: Appending to log...
+
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] multi-character character constant [-Wmultichar]
+
+16.1.2020 15:20:08: Appending to log...
+
+15	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] multi-character character constant [-Wmultichar]
+
+16.1.2020 15:21:11: Appending to log...
+
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] multi-character character constant [-Wmultichar]
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+5	24	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'long' or 'short' specified with char for 'Key'
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] case label value exceeds maximum value for type [enabled by default]
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:21:24: Appending to log...
+
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] multi-character character constant [-Wmultichar]
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] case label value exceeds maximum value for type [enabled by default]
+
+16.1.2020 15:24:58: Appending to log...
+
+3	5	D:\Development\Important\MYOffice\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	D:\Development\Important\MYOffice\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+5	2	D:\Development\Important\MYOffice\InitApp.cpp	[Error] stray '\264' in program
+5	2	D:\Development\Important\MYOffice\InitApp.cpp	[Error] stray '\264' in program
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+6	2	D:\Development\Important\MYOffice\InitApp.cpp	[Error] expected initializer before 'string'
+10	9	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'Key' was not declared in this scope
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:25:31: Appending to log...
+
+		D:\Development\Important\MYOffice\OBJ\InitApp.o	InitApp.cpp:(.text+0x113): undefined reference to `__atomic_fetch_add_4'
+		D:\Development\Important\MYOffice\OBJ\InitApp.o	InitApp.cpp:(.text+0x130): undefined reference to `__atomic_fetch_add_4'
+		d:\development\important\dev\mingw32\mingw32\bin\ld.exe	OBJ/InitApp.o: bad reloc address 0x4 in section `.text.startup'
+		d:\development\important\dev\mingw32\mingw32\bin\ld.exe	final link failed: Invalid operation
+		D:\Development\Important\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+16.1.2020 15:25:51: Appending to log...
+
+		D:\Development\Important\MYOffice\OBJ\InitApp.o	InitApp.cpp:(.text+0x113): undefined reference to `__atomic_fetch_add_4'
+		D:\Development\Important\MYOffice\OBJ\InitApp.o	InitApp.cpp:(.text+0x130): undefined reference to `__atomic_fetch_add_4'
+		d:\development\important\dev\mingw32\mingw32\bin\ld.exe	OBJ/InitApp.o: bad reloc address 0x4 in section `.text.startup'
+		d:\development\important\dev\mingw32\mingw32\bin\ld.exe	final link failed: Invalid operation
+		D:\Development\Important\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+16.1.2020 15:26:27: Appending to log...
+
+		D:\Development\Important\MYOffice\OBJ\InitApp.o	InitApp.cpp:(.text+0x113): undefined reference to `__atomic_fetch_add_4'
+		D:\Development\Important\MYOffice\OBJ\InitApp.o	InitApp.cpp:(.text+0x130): undefined reference to `__atomic_fetch_add_4'
+		d:\development\important\dev\mingw32\mingw32\bin\ld.exe	OBJ/InitApp.o: bad reloc address 0x4 in section `.text.startup'
+		d:\development\important\dev\mingw32\mingw32\bin\ld.exe	final link failed: Invalid operation
+		D:\Development\Important\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+16.1.2020 15:26:53: Appending to log...
+
+		D:\Development\Important\MYOffice\OBJ\InitApp.o	InitApp.cpp:(.text+0x113): undefined reference to `__atomic_fetch_add_4'
+		D:\Development\Important\MYOffice\OBJ\InitApp.o	InitApp.cpp:(.text+0x130): undefined reference to `__atomic_fetch_add_4'
+		d:\development\important\dev\mingw32\mingw32\bin\ld.exe	OBJ/InitApp.o: bad reloc address 0x4 in section `.text.startup'
+		d:\development\important\dev\mingw32\mingw32\bin\ld.exe	final link failed: Invalid operation
+		D:\Development\Important\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+16.1.2020 15:29:23: Appending to log...
+
+		D:\Development\Important\MYOffice\OBJ\InitApp.o	InitApp.cpp:(.text+0xf7): undefined reference to `__atomic_fetch_add_4'
+		D:\Development\Important\MYOffice\OBJ\InitApp.o	InitApp.cpp:(.text+0x114): undefined reference to `__atomic_fetch_add_4'
+		d:\development\important\dev\mingw32\mingw32\bin\ld.exe	OBJ/InitApp.o: bad reloc address 0x4 in section `.text.startup'
+		d:\development\important\dev\mingw32\mingw32\bin\ld.exe	final link failed: Invalid operation
+		D:\Development\Important\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+16.1.2020 15:29:52: Appending to log...
+
+3	5	D:\Development\Important\MYOffice\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	D:\Development\Important\MYOffice\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+		D:\Development\Important\MYOffice\OBJ\InitApp.o	InitApp.cpp:(.text+0xf7): undefined reference to `__atomic_fetch_add_4'
+		D:\Development\Important\MYOffice\OBJ\InitApp.o	InitApp.cpp:(.text+0x114): undefined reference to `__atomic_fetch_add_4'
+		d:\development\important\dev\mingw32\mingw32\bin\ld.exe	OBJ/InitApp.o: bad reloc address 0x4 in section `.text.startup'
+		d:\development\important\dev\mingw32\mingw32\bin\ld.exe	final link failed: Invalid operation
+		D:\Development\Important\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+16.1.2020 15:31:09: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+10	12	D:\Development\Important\MYOffice\InitApp.cpp	[Error] switch quantity not an integer
+12	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] the value of 'key' is not usable in a constant expression
+6	9	D:\Development\Important\MYOffice\InitApp.cpp	[Note] 'key' was not declared 'constexpr'
+12	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] could not convert 'key' from 'std::string {aka std::basic_string<char>}' to '<type error>'
+13	22	D:\Development\Important\MYOffice\InitApp.cpp	[Error] could not convert 'right_Key.std::basic_string<_CharT, _Traits, _Alloc>::operator=<char, std::char_traits<char>, std::allocator<char> >((*(const std::basic_string<char>*)(& key)))' from 'std::basic_string<char>' to 'bool'
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:31:39: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+5	19	D:\Development\Important\MYOffice\InitApp.cpp	[Error] invalid conversion from 'const char*' to 'char' [-fpermissive]
+12	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] the value of 'key' is not usable in a constant expression
+6	7	D:\Development\Important\MYOffice\InitApp.cpp	[Note] 'char key' is not const
+12	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] the value of 'key' is not usable in a constant expression
+6	7	D:\Development\Important\MYOffice\InitApp.cpp	[Note] 'char key' is not const
+13	22	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] suggest parentheses around assignment used as truth value [-Wparentheses]
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:31:48: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+12	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] the value of 'key' is not usable in a constant expression
+6	7	D:\Development\Important\MYOffice\InitApp.cpp	[Note] 'char key' is not const
+12	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] the value of 'key' is not usable in a constant expression
+6	7	D:\Development\Important\MYOffice\InitApp.cpp	[Note] 'char key' is not const
+13	22	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] suggest parentheses around assignment used as truth value [-Wparentheses]
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:31:58: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+5	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'right_Key' does not name a type
+6	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'key' does not name a type
+8	9	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'key' was not declared in this scope
+12	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] the value of 'key' is not usable in a constant expression
+8	9	D:\Development\Important\MYOffice\InitApp.cpp	[Note] 'key' was not declared 'constexpr'
+13	7	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'right_Key' was not declared in this scope
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:33:46: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+9	2	D:\Development\Important\MYOffice\InitApp.cpp	[Error] expected ';' before 'switch'
+17	1	D:\Development\Important\MYOffice\InitApp.cpp	[Error] expected '}' at end of input
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:33:57: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+9	12	D:\Development\Important\MYOffice\InitApp.cpp	[Error] switch quantity not an integer
+11	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'key' was not declared in this scope
+12	7	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'right_Key' was not declared in this scope
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:34:24: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+9	12	D:\Development\Important\MYOffice\InitApp.cpp	[Error] switch quantity not an integer
+11	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'key' was not declared in this scope
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:34:35: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+9	15	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'getch' was not declared in this scope
+11	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] 'key' was not declared in this scope
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:35:28: Appending to log...
+
+		D:\Development\Important\MYOffice\OBJ\InitApp.o	InitApp.cpp:(.text+0xf4): undefined reference to `__atomic_fetch_add_4'
+		D:\Development\Important\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+16.1.2020 15:35:39: Appending to log...
+
+		D:\Development\Important\MYOffice\OBJ\InitApp.o	InitApp.cpp:(.text+0xdc): undefined reference to `__atomic_fetch_add_4'
+		D:\Development\Important\MYOffice\collect2.exe	[Error] ld returned 1 exit status
+26		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'EXE/MYOffice.exe' failed
+
+16.1.2020 15:35:51: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+5	6	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] unused variable 'Key' [-Wunused-variable]
+
+16.1.2020 15:40:47: Appending to log...
+
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] multi-character character constant [-Wmultichar]
+
+16.1.2020 15:41:02: Appending to log...
+
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] multi-character character constant [-Wmultichar]
+
+16.1.2020 15:41:38: Appending to log...
+
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] character constant too long for its type [enabled by default]
+
+16.1.2020 15:41:54: Appending to log...
+
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Warning] multi-character character constant [-Wmultichar]
+
+16.1.2020 15:42:49: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] invalid conversion from 'const char*' to 'int' [-fpermissive]
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] conversion from pointer type 'const char (*)[4]' to arithmetic type 'int' in a constant-expression
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:43:42: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+9	9	D:\Development\Important\MYOffice\InitApp.cpp	[Error] cannot bind 'std::istream {aka std::basic_istream<char>}' lvalue to 'std::basic_istream<char>&&'
+40	0	d:\development\important\dev\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	In file included from d:\development\important\dev\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\Important\MYOffice\InitApp.h	                 from InitApp.h
+1		D:\Development\Important\MYOffice\InitApp.cpp	                 from InitApp.cpp
+872	5	d:\development\important\dev\mingw32\lib\gcc\mingw32\4.8.1\include\c++\istream	[Error] initializing argument 1 of 'std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&&, _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = const char*]'
+11	12	D:\Development\Important\MYOffice\InitApp.cpp	[Error] switch quantity not an integer
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] could not convert '"1-1"' from 'const char [4]' to '<type error>'
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:44:10: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+9	9	D:\Development\Important\MYOffice\InitApp.cpp	[Error] cannot bind 'std::istream {aka std::basic_istream<char>}' lvalue to 'std::basic_istream<char>&&'
+40	0	d:\development\important\dev\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream	In file included from d:\development\important\dev\mingw32\lib\gcc\mingw32\4.8.1\include\c++\iostream
+4		D:\Development\Important\MYOffice\InitApp.h	                 from InitApp.h
+1		D:\Development\Important\MYOffice\InitApp.cpp	                 from InitApp.cpp
+872	5	d:\development\important\dev\mingw32\lib\gcc\mingw32\4.8.1\include\c++\istream	[Error] initializing argument 1 of 'std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&&, _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = const char*]'
+11	12	D:\Development\Important\MYOffice\InitApp.cpp	[Error] switch quantity not an integer
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 15:44:20: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+11	12	D:\Development\Important\MYOffice\InitApp.cpp	[Error] switch quantity not an integer
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 16:02:25: Appending to log...
+
+		D:\Development\Important\MYOffice\InitApp.cpp	In function 'void InitApp()':
+13	8	D:\Development\Important\MYOffice\InitApp.cpp	[Error] expected primary-expression before ':' token
+44		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/InitApp.o' failed
+
+16.1.2020 16:09:22: Appending to log...
+
+		D:\Development\Important\MYOffice\Menu.cpp	In function 'void Menu()':
+57	2	D:\Development\Important\MYOffice\Menu.cpp	[Error] duplicate case value
+21	2	D:\Development\Important\MYOffice\Menu.cpp	[Error] previously used here
+32		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/Menu.o' failed
+
+16.1.2020 16:09:36: Appending to log...
+
+		D:\Development\Important\MYOffice\Menu.cpp	In function 'void Menu()':
+57	2	D:\Development\Important\MYOffice\Menu.cpp	[Error] duplicate case value
+21	2	D:\Development\Important\MYOffice\Menu.cpp	[Error] previously used here
+32		D:\Development\Important\MYOffice\Makefile.win	recipe for target 'OBJ/Menu.o' failed
+
+16.1.2020 16:15:52: Appending to log...
+
+3	5	D:\Development\Important\MYOffice\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	D:\Development\Important\MYOffice\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+
+16.1.2020 16:33:33: Appending to log...
+
+3	5	D:\Development\Important\MYOffice\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	D:\Development\Important\MYOffice\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+
+16.1.2020 20:13:31: Appending to log...
+
+3	5	G:\MojeKancelar\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	G:\MojeKancelar\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+
+16.1.2020 20:14:20: Appending to log...
+
+3	5	G:\MojeKancelar\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	G:\MojeKancelar\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+
+16.1.2020 20:14:43: Appending to log...
+
+3	5	G:\MojeKancelar\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	G:\MojeKancelar\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+
+16.1.2020 20:22:00: Appending to log...
+
+3	5	G:\MojeKancelar\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	G:\MojeKancelar\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]
+
+16.1.2020 20:28:16: Appending to log...
+
+3	5	G:\MojeKancelar\main.cpp	[Warning] unused parameter 'argc' [-Wunused-parameter]
+3	5	G:\MojeKancelar\main.cpp	[Warning] unused parameter 'argv' [-Wunused-parameter]

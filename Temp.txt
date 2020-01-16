@@ -1,0 +1,27 @@
+// Settings.cpp
+
+void saveOptions()
+{
+	ofstream Nastaveni("Settings.txt");
+	if (Nastaveni.is_open())
+  	{
+    	Nastaveni << CLR << "\n";
+    	Nastaveni.close();
+	}
+	else cout << "Unable to open file";
+}
+
+	switch(Key)
+	{
+		case 'ABC':
+			Menu();
+			break;
+		
+		default:
+			cout << "Zadali jste spatny Produktovy Klic. \n"
+				 << "Stisknete jakoukoli klavesu: ";
+			
+			system("pause >NUL");
+			Exit();
+			break;
+	}
