@@ -6838,3 +6838,22 @@ Building Makefile "O:\Makefile.win"
 Executing make clean
 rm -f OBJ/main.o OBJ/Menu.o OBJ/Settings.o OBJ/Help.o OBJ/Exit.o OBJ/Debug.o OBJ/InitApp.o OBJ/MYOffice_private.res EXE/MYOffice.exe
 Compilation succeeded in 0,16 seconds
+
+16.1.2020 20:39:03: Appending to log...
+
+General: MinGW GCC 4.7.2 32-bit Release
+Building Makefile "O:\Makefile.win"
+Executing make clean
+rm -f OBJ/main.o OBJ/Menu.o OBJ/Settings.o OBJ/Help.o OBJ/Exit.o OBJ/Debug.o OBJ/InitApp.o OBJ/MYOffice_private.res EXE/MYOffice.exe
+g++.exe -c main.cpp -o OBJ/main.o -I"G:/IDE/MinGW32/include" -I"G:/IDE/MinGW32/lib/gcc/mingw32/4.7.2/include/c++" -ansi -march=i386 -Ofast -std=gnu++11 -Wall -Wextra
+main.cpp:3:5: warning: unused parameter 'argc' [-Wunused-parameter]
+main.cpp:3:5: warning: unused parameter 'argv' [-Wunused-parameter]
+g++.exe -c Menu.cpp -o OBJ/Menu.o -I"G:/IDE/MinGW32/include" -I"G:/IDE/MinGW32/lib/gcc/mingw32/4.7.2/include/c++" -ansi -march=i386 -Ofast -std=gnu++11 -Wall -Wextra
+g++.exe -c Settings.cpp -o OBJ/Settings.o -I"G:/IDE/MinGW32/include" -I"G:/IDE/MinGW32/lib/gcc/mingw32/4.7.2/include/c++" -ansi -march=i386 -Ofast -std=gnu++11 -Wall -Wextra
+g++.exe -c Help.cpp -o OBJ/Help.o -I"G:/IDE/MinGW32/include" -I"G:/IDE/MinGW32/lib/gcc/mingw32/4.7.2/include/c++" -ansi -march=i386 -Ofast -std=gnu++11 -Wall -Wextra
+g++.exe -c Exit.cpp -o OBJ/Exit.o -I"G:/IDE/MinGW32/include" -I"G:/IDE/MinGW32/lib/gcc/mingw32/4.7.2/include/c++" -ansi -march=i386 -Ofast -std=gnu++11 -Wall -Wextra
+g++.exe -c Debug.cpp -o OBJ/Debug.o -I"G:/IDE/MinGW32/include" -I"G:/IDE/MinGW32/lib/gcc/mingw32/4.7.2/include/c++" -ansi -march=i386 -Ofast -std=gnu++11 -Wall -Wextra
+g++.exe -c InitApp.cpp -o OBJ/InitApp.o -I"G:/IDE/MinGW32/include" -I"G:/IDE/MinGW32/lib/gcc/mingw32/4.7.2/include/c++" -ansi -march=i386 -Ofast -std=gnu++11 -Wall -Wextra
+windres.exe -i MYOffice_private.rc --input-format=rc -o OBJ/MYOffice_private.res -O coff 
+g++.exe OBJ/main.o OBJ/Menu.o OBJ/Settings.o OBJ/Help.o OBJ/Exit.o OBJ/Debug.o OBJ/InitApp.o OBJ/MYOffice_private.res -o EXE/MYOffice.exe -L"G:/IDE/MinGW32/lib" -L"G:/IDE/MinGW32/mingw32/lib" -static-libstdc++ -static-libgcc
+Compilation succeeded in 4,26 seconds with warnings
