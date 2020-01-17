@@ -1,0 +1,61 @@
+// Settings.cpp
+
+void saveOptions()
+{
+	ofstream Nastaveni("Settings.txt");
+	if (Nastaveni.is_open())
+  	{
+    	Nastaveni << CLR << "\n";
+    	Nastaveni.close();
+	}
+	else cout << "Unable to open file";
+}
+
+	switch(Key)
+	{
+		case 'ABC':
+			Menu();
+			break;
+		
+		default:
+			cout << "Zadali jste spatny Produktovy Klic. \n"
+				 << "Stisknete jakoukoli klavesu: ";
+			
+			system("pause >NUL");
+			Exit();
+			break;
+	}
+	
+	
+srand((unsigned)time(NULL));
+
+srand((unsigned) time(0));
+int result = 1 + (rand() % 10);
+
+      srand(time(0));
+
+      int number;
+
+      number = rand() % 10 + 1;
+
+      int ReCaptcha_Result;
+
+      do {
+
+            cout << "Kolik je << number << "x2: ";
+
+            cin >> ReCaptcha_Result;
+
+            if (guess < number)
+
+                  cout << "No. \n" << endl;
+
+            else if (guess > number)
+
+                  cout << "No. \n" << endl;
+
+            else
+
+                  AskKey();
+
+      } while (ReCaptcha_Result != number);
