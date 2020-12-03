@@ -67,7 +67,7 @@ void Settings()
 			break;
 		
 		case 0:
-			Exit();
+			Exit(0);
 			break;
 			
 		case 99:

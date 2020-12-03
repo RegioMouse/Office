@@ -1,73 +1,57 @@
 #include "Menu.h"
-
+#define F1          59
+#define F2          60
+#define F3          61
+#define F4          62
+#define F5          63
+#define F6          64
+#define F7          65
+#define F8          66
+#define F9          67
+#define F10         68
 void Menu()
 {
-	int myChoice;
+	char KeyStroke;
 	
 	system("cls");
-	cout << "			 Hlavni Menu 			\n" ;
-	cout << "(0): Vypnout aplikaci \n";
-	cout << "(1): Cas na zakazce \n";
-	cout << "(2): Prichod / Odchod \n";
-	cout << "(3): Zamestnanci \n";
-	cout << "(4): Nastaveni \n";
-	cout << "(5): Napoveda \n\n\n";
+	cout << "			 Hlavni Menu 			\n\n" ;
+	cout << " ESC -> Vypnout aplikaci \n";
+	cout << " F1  -> Cas na zakazce \n";
+	cout << " F2  -> Prichody / Odchody \n";
+	cout << " F3  -> Zamestnanci \n";
+	cout << " F4  -> Chat \n";
+	cout << " F5  -> Nastaveni \n";
+	cout << " F6  -> Napoveda \n\n\n";
 	
-	cout << "Prikaz: ";
-	cin >> myChoice;
-	
-	switch(myChoice)
+	do
 	{
-	case 0:
-		Exit();
-		break;
-		
-	case 1:
-		// docasna hlaska
-		system("cls");
-		cout << "Funguje, zatim ale neni zprovoznen tento modul. \n Stisknete jakoukoli klavesu pro Hlavni Menu.";
-		system("pause >NUL");
-		Menu();
-		break;
-		
-	case 2:
-		// docasna hlaska
-		system("cls");
-		cout << "Funguje, zatim ale neni zprovoznen tento modul. \n Stisknete jakoukoli klavesu pro Hlavni Menu.";
-		system("pause >NUL");
-		Menu();
-		break;
-		
-	case 3:
-		// docasna hlaska
-		system("cls");
-		cout << "Funguje, zatim ale neni zprovoznen tento modul. \n Stisknete jakoukoli klavesu pro Hlavni Menu.";
-		system("pause >NUL");
-		Menu();
-		break;
-		
-	case 4:
-		Settings();
-		break;
-
-	case 5:
-		Help();
-		break;
-			
-	case -1:
-		Debug();
-		break;
-			
-	case 99:
-			Menu();
-			break;
-
-	default:
-		system("cls");
-		cout << "Chyba! Zvolili jste spatnou volbu! \n"
-			 << "Stisknete jakoukoliv klavesu na pokracovani \n";
-		system("pause >NUL");
-		Menu();
-		break;
-	}
+		KeyStroke =	getch();
+		if (KeyStroke == 0)
+		{
+			KeyStroke = getch(); // Even though there are 2 getch() it reads one keystroke
+			switch (KeyStroke)
+			{
+			case F1:
+				CasNaZakazce();
+				break;
+			case F2:
+				PrichodOdchod();
+				break;
+			case F3:
+				Zamestnanci();
+				break;
+			case F4:
+				Chatting();
+				break;
+			case F5:
+				Settings();
+				break;
+			case F6:
+				Help();
+				break;
+			}
+		}
+	} 
+	while (KeyStroke != 27); // 27 = Escape key
 }
+

@@ -2,3 +2,16 @@
 -Prichod / Odchod
 -Cas
 -Produktovy Klíc							-Hotovo, 16.1.2020 16:17
+
+-Udelat aby se opsilalo na vsechny klienty
+
+
+https://www.deviantart.com/moosader/art/C-Winsock-Sample-Program-97696619
+http://navendus.tripod.com/winsock/winsock20_01.htm
+https://codeload.github.com/parkeradam/ChatClient/zip/master
+http://www.builder.cz/rubriky/c/c--/tcp-klient-v-ms-windows-156205cz
+
+DODELAT CHAT
+
+
+

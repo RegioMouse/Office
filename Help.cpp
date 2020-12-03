@@ -17,7 +17,7 @@ void Help()
 	switch(zpatky_z_napovedy)
 	{
 		case 0:
-			Exit();
+			Exit(0);
 			break;
 			
 		case 99:

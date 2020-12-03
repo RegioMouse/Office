@@ -59,3 +59,23 @@ int result = 1 + (rand() % 10);
                   AskKey();
 
       } while (ReCaptcha_Result != number);
+      
+      
+      
+if (ReCaptcha_Result < ReCaptcha_Real)
+            cout << "Ne. \n";         
+else if (ReCaptcha_Result > ReCaptcha_Real)
+            cout << "Ne. \n";
+            
+            
+            
+            
+            
+	        system("cls");
+	        cout << "			Overeni proti robotum			\n\n\n";
+	        cout << "Ne...\n"
+	        	 << "Budto jsi to spatne spocital nebo jsi robot...\n"
+	        	 << "Stiskni jakoukoliv klavesu...";
+	        system("pause >NUL");
+	        Log( "Spatna ReCaptcha" );
+	        Exit(-1);

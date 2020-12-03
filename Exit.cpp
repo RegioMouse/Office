@@ -1,7 +1,6 @@
 #include "Exit.h"
 
-void Exit()
+void Exit( int ExitCode )
 {
-	exit(0);
-	system("taskkill /f /im MYOffice.exe");
+	exit( ExitCode );
 }

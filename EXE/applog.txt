@@ -1,0 +1,15 @@
+			    Overeni proti robotum    			
+
+
+Ignorujte [] 
+Zadejte tento overovaci kod: [bd8q4] : 			 Hlavni Menu 			
+
+ ESC -> Vypnout aplikaci 
+ F2  -> Cas na zakazce 
+ F3  -> Prichody / Odchody 
+ F4  -> Zamestnanci 
+ F5  -> Chat 
+ F6  -> Nastaveni 
+ F7  -> Napoveda 
+
+

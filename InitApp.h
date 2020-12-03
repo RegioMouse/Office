@@ -6,11 +6,17 @@
 #include <stdio.h>
 #include <ctime>
 #include <cstring>
+#include <fstream>
+#include <tchar.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
 #include "Menu.h"
 #include "Exit.h"
+#include "Essentials.h"
 using namespace std;
 
-void ReCaptcha();
+void RobotVerify();
 void AskKey();
+void InitialSetup();
 
 #endif

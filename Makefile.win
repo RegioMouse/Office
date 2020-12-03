@@ -5,14 +5,14 @@ CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
 RES      = OBJ/MYOffice_private.res
-OBJ      = OBJ/main.o OBJ/Menu.o OBJ/Settings.o OBJ/Help.o OBJ/Exit.o OBJ/Debug.o OBJ/InitApp.o $(RES)
-LINKOBJ  = OBJ/main.o OBJ/Menu.o OBJ/Settings.o OBJ/Help.o OBJ/Exit.o OBJ/Debug.o OBJ/InitApp.o $(RES)
-LIBS     = -L"D:/G/IDE/MinGW32/lib" -L"D:/G/IDE/MinGW32/mingw32/lib" -static-libstdc++ -static-libgcc
-INCS     = -I"D:/G/IDE/MinGW32/include"
-CXXINCS  = -I"D:/G/IDE/MinGW32/include" -I"D:/G/IDE/MinGW32/lib/gcc/mingw32/4.7.2/include/c++"
+OBJ      = OBJ/main.o OBJ/Menu.o OBJ/Settings.o OBJ/Help.o OBJ/Exit.o OBJ/Debug.o OBJ/InitApp.o OBJ/ChattingServer.o OBJ/ChattingClient.o OBJ/Chatting.o OBJ/Essentials.o OBJ/WorkFunctions.o $(RES)
+LINKOBJ  = OBJ/main.o OBJ/Menu.o OBJ/Settings.o OBJ/Help.o OBJ/Exit.o OBJ/Debug.o OBJ/InitApp.o OBJ/ChattingServer.o OBJ/ChattingClient.o OBJ/Chatting.o OBJ/Essentials.o OBJ/WorkFunctions.o $(RES)
+LIBS     = -L"G:/Programs/IDE-DevC++/MinGW32/lib" -L"G:/Programs/IDE-DevC++/MinGW32/mingw32/lib" -static-libstdc++ -static-libgcc ../../Programs/IDE-DevC++/MinGW32/lib/libws2_32.a ../../Programs/IDE-DevC++/MinGW32/lib/libwininet.a ../../Programs/IDE-DevC++/MinGW32/lib/liburl.a  -m32
+INCS     = -I"G:/Programs/IDE-DevC++/MinGW32/include"
+CXXINCS  = -I"G:/Programs/IDE-DevC++/MinGW32/include" -I"G:/Programs/IDE-DevC++/MinGW32/lib/gcc/mingw32/4.7.2/include/c++"
 BIN      = EXE/MYOffice.exe
-CXXFLAGS = $(CXXINCS) -ansi -march=i386 -Ofast -std=gnu++11 -Wall -Wextra
-CFLAGS   = $(INCS) -ansi -march=i386 -Ofast -std=gnu++11 -Wall -Wextra
+CXXFLAGS = $(CXXINCS) -ansi -traditional-cpp -march=i386 -Ofast -m32 -std=gnu++11
+CFLAGS   = $(INCS) -ansi -traditional-cpp -march=i386 -Ofast -m32 -std=gnu++11
 RM       = rm -f
 
 .PHONY: all all-before all-after clean clean-custom
@@ -46,5 +46,20 @@ OBJ/Debug.o: Debug.cpp
 OBJ/InitApp.o: InitApp.cpp
 	$(CPP) -c InitApp.cpp -o OBJ/InitApp.o $(CXXFLAGS)
 
+OBJ/ChattingServer.o: ChattingServer.cpp
+	$(CPP) -c ChattingServer.cpp -o OBJ/ChattingServer.o $(CXXFLAGS)
+
+OBJ/ChattingClient.o: ChattingClient.cpp
+	$(CPP) -c ChattingClient.cpp -o OBJ/ChattingClient.o $(CXXFLAGS)
+
+OBJ/Chatting.o: Chatting.cpp
+	$(CPP) -c Chatting.cpp -o OBJ/Chatting.o $(CXXFLAGS)
+
+OBJ/Essentials.o: Essentials.cpp
+	$(CPP) -c Essentials.cpp -o OBJ/Essentials.o $(CXXFLAGS)
+
+OBJ/WorkFunctions.o: WorkFunctions.cpp
+	$(CPP) -c WorkFunctions.cpp -o OBJ/WorkFunctions.o $(CXXFLAGS)
+
 OBJ/MYOffice_private.res: MYOffice_private.rc 
-	$(WINDRES) -i MYOffice_private.rc --input-format=rc -o OBJ/MYOffice_private.res -O coff 
+	$(WINDRES) -i MYOffice_private.rc -F pe-i386 --input-format=rc -o OBJ/MYOffice_private.res -O coff 

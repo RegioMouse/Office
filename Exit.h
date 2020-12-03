@@ -5,6 +5,6 @@
 #include <stdlib.h>
 using namespace std;
 
-void Exit();
+void Exit( int ExitCode );
 
 #endif
